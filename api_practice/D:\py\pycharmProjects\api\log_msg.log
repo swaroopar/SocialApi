@@ -1,0 +1,1098 @@
+INFO     : 2022-07-17 08:43:35,619 : [server.py : 75] : Started server process [21262]
+INFO     : 2022-07-17 08:43:35,619 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 08:43:35,619 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 08:43:35,619 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 08:51:08,858 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 08:51:08,960 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 08:51:08,960 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 08:51:08,960 : [server.py : 85] : Finished server process [21262]
+INFO     : 2022-07-17 08:51:09,283 : [server.py : 75] : Started server process [25319]
+INFO     : 2022-07-17 08:51:09,284 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 08:51:09,284 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 08:51:09,284 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 08:56:56,952 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 08:56:57,054 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 08:56:57,054 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 08:56:57,054 : [server.py : 85] : Finished server process [25319]
+INFO     : 2022-07-17 08:56:57,435 : [server.py : 75] : Started server process [25374]
+INFO     : 2022-07-17 08:56:57,435 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 08:56:57,435 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 08:56:57,436 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 09:00:21,442 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 09:00:21,543 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 09:00:21,544 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 09:00:21,544 : [server.py : 85] : Finished server process [25374]
+INFO     : 2022-07-17 09:00:21,849 : [server.py : 75] : Started server process [25387]
+INFO     : 2022-07-17 09:00:21,849 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 09:00:21,849 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 09:00:21,849 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 10:32:20,263 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 10:32:20,366 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 10:32:20,367 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 10:32:20,367 : [server.py : 85] : Finished server process [25387]
+INFO     : 2022-07-17 10:32:20,718 : [server.py : 75] : Started server process [25724]
+INFO     : 2022-07-17 10:32:20,718 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 10:32:20,719 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 10:32:20,719 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 10:35:06,357 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 10:35:06,459 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 10:35:06,459 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 10:35:06,459 : [server.py : 85] : Finished server process [25724]
+INFO     : 2022-07-17 10:35:06,818 : [server.py : 75] : Started server process [25747]
+INFO     : 2022-07-17 10:35:06,818 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 10:35:06,818 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 10:35:06,818 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 10:35:43,181 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 20, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 11:01:44,145 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:01:44,247 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:01:44,247 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:01:44,247 : [server.py : 85] : Finished server process [25747]
+INFO     : 2022-07-17 11:01:44,674 : [server.py : 75] : Started server process [25865]
+INFO     : 2022-07-17 11:01:44,674 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:01:44,674 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:01:44,675 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:02:14,467 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 20, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 11:04:48,602 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:04:48,704 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:04:48,705 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:04:48,705 : [server.py : 85] : Finished server process [25865]
+INFO     : 2022-07-17 11:04:49,050 : [server.py : 75] : Started server process [25882]
+INFO     : 2022-07-17 11:04:49,050 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:04:49,050 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:04:49,051 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:05:09,192 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 20, in check_credentials
+    if not Hash.verify(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 11:07:03,659 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:07:03,762 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:07:03,762 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:07:03,762 : [server.py : 85] : Finished server process [25882]
+INFO     : 2022-07-17 11:07:04,178 : [server.py : 75] : Started server process [25916]
+INFO     : 2022-07-17 11:07:04,178 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:07:04,178 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:07:04,179 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:20:19,315 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:20:19,417 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:20:19,418 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:20:19,418 : [server.py : 85] : Finished server process [25916]
+INFO     : 2022-07-17 11:20:19,774 : [server.py : 75] : Started server process [26012]
+INFO     : 2022-07-17 11:20:19,774 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:20:19,774 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:20:19,774 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:22:05,860 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:24:03,296 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:24:03,398 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:24:03,398 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:24:03,398 : [server.py : 85] : Finished server process [26012]
+INFO     : 2022-07-17 11:24:03,687 : [server.py : 75] : Started server process [26025]
+INFO     : 2022-07-17 11:24:03,687 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:24:03,687 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:24:03,687 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:29:23,000 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:29:23,102 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:29:23,102 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:29:23,102 : [server.py : 85] : Finished server process [26025]
+INFO     : 2022-07-17 11:29:23,444 : [server.py : 75] : Started server process [26079]
+INFO     : 2022-07-17 11:29:23,444 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:29:23,444 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:29:23,445 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:32:40,349 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:32:40,451 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:32:40,452 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:32:40,452 : [server.py : 85] : Finished server process [26079]
+INFO     : 2022-07-17 11:32:40,785 : [server.py : 75] : Started server process [26116]
+INFO     : 2022-07-17 11:32:40,785 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:32:40,785 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:32:40,785 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:33:23,110 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/user.py", line 43, in update_user
+    user.update(user_name=request.user_name,
+TypeError: update() got an unexpected keyword argument 'user_name'
+INFO     : 2022-07-17 11:35:05,955 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:35:06,057 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:35:06,057 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:35:06,057 : [server.py : 85] : Finished server process [26116]
+INFO     : 2022-07-17 11:35:06,473 : [server.py : 75] : Started server process [26124]
+INFO     : 2022-07-17 11:35:06,473 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:35:06,473 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:35:06,473 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:38:45,338 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:38:45,440 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:38:45,440 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:38:45,441 : [server.py : 85] : Finished server process [26124]
+INFO     : 2022-07-17 11:38:45,842 : [server.py : 75] : Started server process [26145]
+INFO     : 2022-07-17 11:38:45,842 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:38:45,842 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:38:45,842 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:39:05,448 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:39:31,781 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:39:31,881 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:39:31,882 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:39:31,882 : [server.py : 85] : Finished server process [26145]
+INFO     : 2022-07-17 11:39:32,204 : [server.py : 75] : Started server process [26150]
+INFO     : 2022-07-17 11:39:32,204 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:39:32,204 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:39:32,204 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:39:44,803 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:41:39,298 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:41:39,402 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:41:39,402 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:41:39,402 : [server.py : 85] : Finished server process [26150]
+INFO     : 2022-07-17 11:41:39,752 : [server.py : 75] : Started server process [26171]
+INFO     : 2022-07-17 11:41:39,753 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:41:39,753 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:41:39,753 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:42:09,883 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2318, in refresh
+    state = attributes.instance_state(instance)
+AttributeError: 'Query' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/user.py", line 43, in update_user
+    db.refresh(user)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2320, in refresh
+    util.raise_(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'sqlalchemy.orm.query.Query' is not mapped
+ERROR    : 2022-07-17 11:42:55,112 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2318, in refresh
+    state = attributes.instance_state(instance)
+AttributeError: 'Query' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/user.py", line 43, in update_user
+    db.refresh(user)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2320, in refresh
+    util.raise_(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'sqlalchemy.orm.query.Query' is not mapped
+ERROR    : 2022-07-17 11:43:22,554 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2318, in refresh
+    state = attributes.instance_state(instance)
+AttributeError: 'Query' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/user.py", line 43, in update_user
+    return 'user details updated'
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2320, in refresh
+    util.raise_(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'sqlalchemy.orm.query.Query' is not mapped
+INFO     : 2022-07-17 11:43:30,061 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:43:30,162 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:43:30,163 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:43:30,163 : [server.py : 85] : Finished server process [26171]
+INFO     : 2022-07-17 11:43:30,499 : [server.py : 75] : Started server process [26190]
+INFO     : 2022-07-17 11:43:30,499 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:43:30,499 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:43:30,500 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:43:33,203 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+ERROR    : 2022-07-17 11:44:12,144 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+ERROR    : 2022-07-17 11:45:29,114 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:48:42,435 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:48:42,538 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:48:42,539 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:48:42,539 : [server.py : 85] : Finished server process [26190]
+INFO     : 2022-07-17 11:49:06,599 : [server.py : 75] : Started server process [26212]
+INFO     : 2022-07-17 11:49:06,600 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:49:06,600 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:49:06,600 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:49:51,183 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:50:42,530 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:50:42,632 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:50:42,632 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:50:42,632 : [server.py : 85] : Finished server process [26212]
+INFO     : 2022-07-17 11:50:43,066 : [server.py : 75] : Started server process [26223]
+INFO     : 2022-07-17 11:50:43,066 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:50:43,066 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:50:43,066 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:56:00,033 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:56:00,136 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:56:00,137 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:56:00,137 : [server.py : 85] : Finished server process [26223]
+INFO     : 2022-07-17 11:56:26,658 : [server.py : 75] : Started server process [26256]
+INFO     : 2022-07-17 11:56:26,658 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:56:26,658 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:56:26,658 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 11:56:43,151 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 245, in app
+    content = await serialize_response(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 138, in serialize_response
+    raise ValidationError(errors, field.type_)
+pydantic.error_wrappers.ValidationError: 2 validation errors for ShowUser
+response -> user_name
+  field required (type=value_error.missing)
+response -> email_id
+  field required (type=value_error.missing)
+INFO     : 2022-07-17 11:57:09,469 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:57:09,572 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:57:09,572 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:57:09,572 : [server.py : 85] : Finished server process [26256]
+INFO     : 2022-07-17 11:57:09,911 : [server.py : 75] : Started server process [26261]
+INFO     : 2022-07-17 11:57:09,911 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:57:09,911 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:57:09,911 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 11:57:54,631 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 11:57:54,733 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 11:57:54,733 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 11:57:54,734 : [server.py : 85] : Finished server process [26261]
+INFO     : 2022-07-17 11:57:55,081 : [server.py : 75] : Started server process [26271]
+INFO     : 2022-07-17 11:57:55,081 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 11:57:55,081 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 11:57:55,082 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 12:02:52,417 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 12:02:52,520 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 12:02:52,520 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 12:02:52,520 : [server.py : 85] : Finished server process [26271]
+INFO     : 2022-07-17 12:03:32,166 : [server.py : 75] : Started server process [26351]
+INFO     : 2022-07-17 12:03:32,166 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 12:03:32,166 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 12:03:32,166 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 12:04:50,046 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 12:04:50,148 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 12:04:50,149 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 12:04:50,149 : [server.py : 85] : Finished server process [26351]
+INFO     : 2022-07-17 12:04:50,524 : [server.py : 75] : Started server process [26362]
+INFO     : 2022-07-17 12:04:50,524 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 12:04:50,524 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 12:04:50,524 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 12:38:36,847 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 12:38:36,951 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 12:38:36,952 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 12:38:36,952 : [server.py : 85] : Finished server process [26362]
+INFO     : 2022-07-17 12:49:08,277 : [server.py : 75] : Started server process [26592]
+INFO     : 2022-07-17 12:49:08,277 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 12:49:08,277 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 12:49:08,277 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 12:49:43,699 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 23, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 12:57:43,519 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 12:57:43,622 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 12:57:43,622 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 12:57:43,622 : [server.py : 85] : Finished server process [26592]
+INFO     : 2022-07-17 12:57:44,061 : [server.py : 75] : Started server process [26621]
+INFO     : 2022-07-17 12:57:44,061 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 12:57:44,061 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 12:57:44,061 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 12:58:00,072 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 21, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 13:01:43,774 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 13:01:43,877 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 13:01:43,878 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 13:01:43,878 : [server.py : 85] : Finished server process [26621]
+INFO     : 2022-07-17 13:01:44,311 : [server.py : 75] : Started server process [26651]
+INFO     : 2022-07-17 13:01:44,311 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 13:01:44,311 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 13:01:44,311 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 13:02:20,223 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 21, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 15:03:58,539 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 15:03:58,641 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 15:03:58,642 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 15:03:58,642 : [server.py : 85] : Finished server process [26651]
+INFO     : 2022-07-17 15:03:58,998 : [server.py : 75] : Started server process [26684]
+INFO     : 2022-07-17 15:03:58,998 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 15:03:58,999 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 15:03:58,999 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+ERROR    : 2022-07-17 15:04:27,231 : [h11_impl.py : 406] : Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/routers/authenticate.py", line 21, in check_credentials
+    if not Hash.verify_password(request.password, user.password):
+  File "/Users/chandru/Desktop/Desktop/fastapi/api/api_practice/hashing.py", line 11, in verify_password
+    return pwd_context.verify(plain_password, hashed_password)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/Users/chandru/Desktop/venv/employee3.8/lib/python3.8/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+INFO     : 2022-07-17 15:05:31,483 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 15:05:31,585 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 15:05:31,585 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 15:05:31,585 : [server.py : 85] : Finished server process [26684]
+INFO     : 2022-07-17 15:05:31,961 : [server.py : 75] : Started server process [26696]
+INFO     : 2022-07-17 15:05:31,961 : [on.py : 47] : Waiting for application startup.
+INFO     : 2022-07-17 15:05:31,961 : [on.py : 61] : Application startup complete.
+INFO     : 2022-07-17 15:05:31,962 : [server.py : 207] : Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO     : 2022-07-17 16:00:15,981 : [server.py : 253] : Shutting down
+INFO     : 2022-07-17 16:00:16,084 : [on.py : 66] : Waiting for application shutdown.
+INFO     : 2022-07-17 16:00:16,084 : [on.py : 77] : Application shutdown complete.
+INFO     : 2022-07-17 16:00:16,085 : [server.py : 85] : Finished server process [26696]
