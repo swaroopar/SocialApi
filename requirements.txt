@@ -1,0 +1,6 @@
+uvicorn~=0.18.2
+fastapi~=0.79.0
+SQLAlchemy~=1.4.39
+pydantic~=1.9.1
+passlib~=1.7.4
+jose~=1.0.0
