@@ -12,10 +12,10 @@ class LogRoute(APIRoute):
         original_route_handler = super().get_route_handler()
 
         async def custom_route_handler(request: Request) -> Response:
-            req = request.method, request.url
+            req = f'Received {request.method} {request.url.path}'
             logger.info(req)
             response: Response = await original_route_handler(request)
-            resp = response.body, response.status_code
+            resp = f'Returning HTTP {response.status_code} {response.body}'
             logger.info(resp)
             return response
 
