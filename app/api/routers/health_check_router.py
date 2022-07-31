@@ -1,12 +1,10 @@
-import logging
 from typing import Callable
 from fastapi import APIRouter, Request, Response
 from fastapi.routing import APIRoute
 
-from api.models.health_check_status import HealthCheckStatus
+from app.api.models.health_check_status import HealthCheckStatus
 
-
-logger = logging.getLogger(__name__)
+from app.logger_config import logger
 
 
 class LogRoute(APIRoute):
@@ -32,6 +30,6 @@ router = APIRouter(
 
 
 @router.get('/health_check', response_model=HealthCheckStatus)
-def health_check():
+async def health_check():
     logger.info('Server Health Check')
     return HealthCheckStatus(is_server_running=True)
