@@ -14,12 +14,13 @@ router = APIRouter()
 
 
 @router.post("/login", response_model=Token)
-async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
+async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends()) -> Token:
     for user in users_db:
         if users_db[user]['email'] == form_data.username and users_db[user]['password'] == form_data.password:
             data = {'sub': form_data.username}
             access_token = jwt.encode(data, SECRET_KEY, algorithm=ALGORITHM)
-            return {"access_token": access_token, "token_type": "bearer"}
+            tkn = Token(access_token= access_token, token_type='bearer')
+            return tkn
     raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
                         detail='Entered Wrong Username or Password')
 

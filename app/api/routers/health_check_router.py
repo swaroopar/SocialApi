@@ -1,26 +1,8 @@
-from typing import Callable
-from fastapi import APIRouter, Request, Response
-from fastapi.routing import APIRoute
+from fastapi import APIRouter
 
 from app.api.models.health_check_status import HealthCheckStatus
 
-from app.logger_config import logger
-
-
-class LogRoute(APIRoute):
-    def get_route_handler(self) -> Callable:
-        original_route_handler = super().get_route_handler()
-
-        async def custom_route_handler(request: Request) -> Response:
-            req = f'Received {request.method} {request.url.path}'
-            logger.info(req)
-            response: Response = await original_route_handler(request)
-            resp = f'Returning HTTP {response.status_code} {response.body}'
-            logger.info(resp)
-            return response
-
-        return custom_route_handler
-
+from app.logger_config import logger, LogRoute
 
 router = APIRouter(
     route_class=LogRoute,

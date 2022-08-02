@@ -11,7 +11,7 @@ ALGORITHM = "HS256"
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 
-def get_current_user(token: str = Depends(oauth2_scheme)):
+def get_current_user(token: str = Depends(oauth2_scheme)) -> TokenData:
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
         detail="Could not validate credentials",
@@ -22,8 +22,7 @@ def get_current_user(token: str = Depends(oauth2_scheme)):
         email: str = payload.get("sub")
         if email is None:
             raise credentials_exception
-        token_data = TokenData(email=email)
-        return token_data
+        return TokenData(email=email)
     except JWTError:
         raise credentials_exception
 
