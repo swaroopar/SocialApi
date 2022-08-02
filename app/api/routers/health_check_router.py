@@ -1,17 +1,17 @@
-import logging
 from fastapi import APIRouter
-from api.models.health_check_status import HealthCheckStatus
 
-logger = logging.getLogger(__name__)
+from app.api.models.health_check_status import HealthCheckStatus
+
+from app.logger_config import logger, LogRoute
 
 router = APIRouter(
-    prefix='/social_api'
+    route_class=LogRoute,
+    prefix='/social_api',
+    tags=['healthCheck']
 )
 
 
 @router.get('/health_check', response_model=HealthCheckStatus)
-def health_check():
-    logger.info('Health check performance')
-
+async def health_check():
+    logger.info('Server Health Check')
     return HealthCheckStatus(is_server_running=True)
-
